@@ -1,8 +1,51 @@
+body {
+    cursor: wait;
+}
+
 nav {
     background-color: #333;
     width: 800px;
     padding-top: 5px;
     padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color:aqua; 
+    background-color: navy; 
+    padding: 2px 10px 2px 10px; 
+    border-radius: 5px 5px 0px 0px; 
+    margin: 0px;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover {
+    color: navy; 
+    background-color: aqua; 
+    padding: 2px 10px 2px 10px; 
+    border-radius: 5px 5px 0px 0px; 
+    margin: 0px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .5s;
+}
+a:visited {
+    color:aqua; 
+    background-color: navy; 
+    padding: 2px 10px 2px 10px; 
+    border-radius: 5px 5px 0px 0px; 
+    margin: 0px;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:active {
+    color:aqua; 
+    background-color: navy; 
+    padding: 2px 10px 2px 10px; 
+    border-radius: 5px 5px 0px 0px; 
+    margin: 0px;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 footer {
