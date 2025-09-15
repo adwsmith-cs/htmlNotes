@@ -5,8 +5,20 @@
     </head>
     <body>
         <form action="https://formspree.io/f/mkgvaobw" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
+            <label>First Name</label>
+            <input type="text" name="fName" placeholder="Your First Name" required>
+            <br>
+            <label>Last Name</label>
+            <input type="text" name="lName" placeholder="Your Last Name" required>
+            <br>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <br>
+            <label>Message</label><br>
+            <textarea name="message" cols="50" rows="5"placeholder="Your Message">Enter you long text here.</textarea>
+            <br>
             <input type="submit" value="Send">
+            <input type="reset" value="Reset">
         </form>
 
     </body>
