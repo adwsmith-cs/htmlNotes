@@ -1,9 +1,29 @@
 <html>
     <head>
+        <style>
+            a {
+                text-decoration: none; color: red;
+            }
+            a:hover {
+                text-decoration: underline; color: blue;
+            }
+            a:visited {
+                text-decoration: none; color: red;
+            }
+            a:active {
+                text-decoration: none; background-color: white; color: white
+            }
+            
+        </style>
         <title>Forms</title>
 
     </head>
     <body>
+        <nav>
+            <a href="index.htm">Home</a> |
+            <a href="tables.htm">Tables</a> |
+
+        </nav>
         <form action="https://formspree.io/f/mkgvaobw" method="post">
             <label>First Name</label>
             <input type="text" name="fName" placeholder="Your First Name" required>
